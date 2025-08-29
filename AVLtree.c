@@ -176,8 +176,8 @@ struct node* deletenode(struct node* root, int data)
         }
         else//RL
         {
-            root->right = leftRotation(root->right);
-            return rightRotation(root);
+            root->right = rightRotation(root->right);
+            return leftRotation(root);
         }
     }
     else
