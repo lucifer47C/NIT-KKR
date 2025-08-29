@@ -1,1 +1,102 @@
+# -------------------------------
+# General / OS generated files
+# -------------------------------
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Executables & binaries
+# -------------------------------
 *.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# -------------------------------
+# C / C++
+# -------------------------------
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.gch
+*.pch
+
+# Precompiled headers
+*.h.gch
+*.hpp.gch
+
+# Compiled Static libraries
+*.lib
+*.a
+*.la
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# -------------------------------
+# Java
+# -------------------------------
+*.class
+*.war
+*.ear
+*.jar
+*.iml
+*.idea/
+target/
+build/
+
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# -------------------------------
+# Other build systems
+# -------------------------------
+dist/
+build/
+bin/
+obj/
+.debug/
+release/
+out/
