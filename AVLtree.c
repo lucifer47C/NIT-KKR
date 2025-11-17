@@ -75,7 +75,7 @@ struct node* insert(struct node* root, int data)
     }
     else 
     {
-        root -> right = insert(root->right, data);
+        root->right = insert(root->right, data);
     }
 
     root->height = max(height(root->left), height(root->right)) + 1;
